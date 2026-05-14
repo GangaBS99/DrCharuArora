@@ -1,0 +1,224 @@
+.system-page {
+  background: var(--color-bg-sage);
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+/* Hero */
+.system-hero {
+  padding: var(--space-xl) var(--container-padding) var(--space-lg);
+}
+
+.system-label {
+  font-size: var(--font-sm);
+  color: var(--color-gray);
+  margin-bottom: var(--space-sm);
+}
+
+.system-headline {
+  font-family: 'Libre Baskerville', serif;
+  font-size: var(--font-xl);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: var(--space-md);
+  line-height: 1.3;
+}
+
+.system-headline em {
+  color: var(--color-gold);
+  font-style: italic;
+}
+
+.system-body {
+  font-size: var(--font-base);
+  line-height: 1.8;
+  color: var(--color-gray);
+  max-width: 720px;
+}
+
+/* Pillars / Three Lenses */
+.pillars-section {
+  padding: 0 var(--container-padding) var(--space-xl);
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.pillar-card {
+  padding: var(--space-lg);
+  background: var(--color-bg-card);
+  border-radius: 10px;
+}
+
+.pillar-card h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: var(--font-lg);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.pillar-card .pillar-subtitle {
+  font-size: var(--font-sm);
+  font-weight: 500;
+  color: var(--color-gold);
+  margin-bottom: var(--space-sm);
+  line-height: 1.5;
+}
+
+.pillar-card p {
+  font-size: var(--font-sm);
+  line-height: 1.7;
+  color: var(--color-gray);
+  text-align: justify;
+}
+
+.pillar-list {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--space-md);
+}
+
+.pillar-list li {
+  font-size: var(--font-sm);
+  line-height: 1.6;
+  color: var(--color-gray);
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: var(--space-xs);
+}
+
+.pillar-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+}
+
+/* Clinical Process */
+.process-section {
+  padding: var(--space-xl) var(--container-padding);
+  border-top: 1px solid var(--color-border);
+}
+
+.process-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: var(--font-lg);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+  line-height: 1.3;
+}
+
+.process-title em {
+  color: var(--color-gold);
+  font-style: italic;
+}
+
+.process-intro {
+  font-size: var(--font-base);
+  line-height: 1.8;
+  color: var(--color-gray);
+  max-width: 720px;
+  margin-bottom: var(--space-lg);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.process-card {
+  padding: var(--space-lg);
+  border-left: 1px solid var(--color-border);
+}
+
+.process-number {
+  font-size: var(--font-xs);
+  color: var(--color-primary);
+  letter-spacing: 1px;
+  margin-bottom: var(--space-sm);
+}
+
+.process-card h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: var(--font-base);
+  font-weight: 400;
+  color: var(--color-gold);
+  margin-bottom: var(--space-sm);
+  line-height: 1.4;
+}
+
+.process-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.process-card ul li {
+  font-size: var(--font-sm);
+  line-height: 1.7;
+  color: var(--color-gray);
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: var(--space-xs);
+}
+
+.process-card ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+}
+
+/* Core Principles */
+.principles-section {
+  padding: var(--space-xl) var(--container-padding);
+  border-top: 1px solid var(--color-border);
+}
+
+.principles-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: var(--font-lg);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+.principle-card {
+  padding: var(--space-lg);
+  background: var(--color-bg-card);
+  border-radius: 8px;
+}
+
+.principle-card p {
+  font-size: var(--font-sm);
+  line-height: 1.8;
+  color: var(--color-gray);
+}
+
+@media (max-width: 992px) {
+  .pillars-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+  .principles-grid {
+    grid-template-columns: 1fr;
+  }
+  .process-card {
+    border-left: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .process-card:last-child {
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,89 @@
+.hook-section {
+  padding: var(--space-xxl) var(--container-padding);
+  background: var(--color-white);
+}
+
+.hook-content {
+  margin-bottom: var(--space-xl);
+}
+
+.hook-label {
+  font-size: var(--font-sm);
+  letter-spacing: 2.5px;
+  color: var(--color-gold);
+  margin-bottom: var(--space-md);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hook-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: var(--font-xl);
+  font-weight: 400;
+  color: var(--color-navy);
+  line-height: 1.35;
+  margin-bottom: var(--space-md);
+}
+
+.hook-body {
+  font-size: var(--font-base);
+  line-height: 1.7;
+  color: var(--color-gray);
+  margin-bottom: var(--space-lg);
+  max-width: 720px;
+}
+
+.hook-cta {
+  background: transparent;
+  color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+  border-radius: 6px;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--font-sm);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.patient-voices {
+  margin-top: var(--space-lg);
+}
+
+.voices-list {
+  list-style: none;
+  padding: var(--space-lg) var(--space-xl);
+  border: 1.5px solid var(--color-gold);
+  border-radius: 12px;
+}
+
+.voices-list li {
+  font-size: var(--font-base);
+  line-height: 1.6;
+  color: var(--color-navy);
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: var(--space-md);
+}
+
+.voices-list li:last-child {
+  margin-bottom: 0;
+}
+
+.voices-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-gray);
+}
+
+@media (max-width: 768px) {
+  .hook-section {
+    padding: var(--space-xl) var(--container-padding);
+  }
+  .hook-title {
+    font-size: var(--font-lg);
+  }
+  .voices-list {
+    padding: var(--space-md);
+  }
+}
