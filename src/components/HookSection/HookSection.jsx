@@ -19,17 +19,18 @@ function HookSection() {
           Still not satisfied with the treatment.
         </h2>
         <p className="hook-body">
-          Standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
+          standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
         </p>
         <button className="hook-cta">Take the free health</button>
       </div>
 
       <div className="patient-voices">
-        <ul className="voices-list">
-          {voices.map((voice, i) => (
-            <li key={i}>"{voice}"</li>
-          ))}
-        </ul>
+        {voices.map((voice, i) => (
+          <div className="voice-card" key={i}>
+            <span className="quote-mark"></span>
+            <p>{voice}</p>
+          </div>
+        ))}
       </div>
     </section>
   )

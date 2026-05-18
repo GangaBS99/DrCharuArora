@@ -37,7 +37,7 @@ function HowItWorks() {
         </div>
       </div>
 
-      <button className="how-cta">Explore the system</button>
+      <button className="how-cta">Take the free health check</button>
     </section>
   )
 }

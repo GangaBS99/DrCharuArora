@@ -12,6 +12,7 @@ const conditions = [
   { title: 'Anxiety', desc: 'Chronic worry, nervous system dysregulation' },
   { title: 'Post-Procedure QoL', desc: 'Post-surgery, chemotherapy, radiation' },
   { title: 'Fatigue', desc: 'Chronic, adrenal, post-viral' },
+  { title: 'Others', desc: 'Cardiac disorders, depression, etc' },
 ]
 
 function ConditionsGrid() {

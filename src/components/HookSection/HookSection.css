@@ -17,7 +17,7 @@
 }
 
 .hook-title {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-xl);
   font-weight: 400;
   color: var(--color-navy);
@@ -39,41 +39,57 @@
   border: 2px solid var(--color-gold);
   border-radius: 6px;
   padding: var(--space-sm) var(--space-lg);
+  font-family: 'Inter', sans-serif;
   font-size: var(--font-sm);
   font-weight: 600;
   letter-spacing: 0.5px;
   cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.hook-cta:hover {
+  background: var(--color-gold);
+  color: #fff;
 }
 
 .patient-voices {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  gap: var(--space-md);
   margin-top: var(--space-lg);
 }
 
-.voices-list {
-  list-style: none;
-  padding: var(--space-lg) var(--space-xl);
-  border: 1.5px solid var(--color-gold);
-  border-radius: 12px;
+.voice-card {
+  background: #eef0f2;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1 / 1;
 }
 
-.voices-list li {
+.voice-card .quote-mark {
+  display: block;
+  width: 32px;
+  height: 24px;
+  margin-bottom: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'%3E%3Cpath d='M0 24V14.4C0 9.6 1.1 6 3.3 3.6 5.5 1.2 8.5 0 12.3 0v4.8c-2 .4-3.5 1.3-4.5 2.7-1 1.4-1.5 3-1.5 4.9H12v11.6H0zm18 0V14.4c0-4.8 1.1-8.4 3.3-10.8C23.5 1.2 26.5 0 30.3 0v4.8c-2 .4-3.5 1.3-4.5 2.7-1 1.4-1.5 3-1.5 4.9H30V24H18z' fill='%23b5b9be'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.voice-card p {
   font-size: var(--font-base);
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--color-navy);
-  padding-left: 20px;
-  position: relative;
-  margin-bottom: var(--space-md);
-}
-
-.voices-list li:last-child {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
-.voices-list li::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: var(--color-gray);
+@media (max-width: 992px) {
+  .patient-voices {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -81,9 +97,10 @@
     padding: var(--space-xl) var(--container-padding);
   }
   .hook-title {
+    
     font-size: var(--font-lg);
   }
-  .voices-list {
-    padding: var(--space-md);
+  .patient-voices {
+    grid-template-columns: 1fr;
   }
 }

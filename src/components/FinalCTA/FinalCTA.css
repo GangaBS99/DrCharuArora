@@ -1,18 +1,112 @@
 .final-cta {
   padding: var(--space-xxl) var(--container-padding);
+  background: var(--color-bg-sage);
+}
+
+/* Health Check Box */
+.health-check-box {
   background: var(--color-white);
+  border-radius: 16px;
+  padding: var(--space-xl);
+  margin-bottom: var(--space-xxl);
   text-align: center;
-  max-width: var(--container-max);
-  margin: 0 auto;
+}
+
+.health-check-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: var(--font-xxl);
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-bottom: var(--space-md);
+}
+
+.health-check-title .highlight {
+  background: var(--color-gold);
+  color: #fff;
+  padding: 2px 8px;
+}
+
+.health-check-desc {
+  font-size: var(--font-md);
+  line-height: 1.7;
+  color: var(--color-gray);
+  max-width: 600px;
+  margin: 0 auto var(--space-xl);
+  text-align: left;
+}
+
+/* Stats */
+.health-check-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin-bottom: var(--space-xl);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.stat-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-gold);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--font-md);
+  font-weight: 600;
+}
+
+.stat-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: var(--font-xl);
+  color: var(--color-navy);
+  font-weight: 600;
+}
+
+.stat-connector {
+  width: 2px;
+  height: 24px;
+  background: var(--color-gold);
+}
+
+/* Button */
+.health-check-btn {
+  background: var(--color-navy);
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-xs);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.health-check-btn:hover {
+  background: #243648;
+}
+
+/* Closing Statement */
+.final-closing {
+  text-align: center;
+  padding-top: var(--space-xl);
 }
 
 .final-cta-headline {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-xl);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-navy);
-  line-height: 1.5;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-sm);
 }
 
 .final-cta-headline em {
@@ -20,26 +114,24 @@
   font-style: italic;
 }
 
-.final-cta-buttons {
-  display: flex;
-  justify-content: center;
-  gap: var(--space-md);
+.final-subtext {
+  font-size: var(--font-md);
+  color: var(--color-navy);
+  font-weight: 500;
+  margin-bottom: var(--space-md);
 }
 
-.final-btn {
-  background: transparent;
+.final-links {
+  font-size: var(--font-base);
   color: var(--color-gold);
-  border: 1.5px solid var(--color-gold);
-  padding: var(--space-sm) var(--space-lg);
-  font-size: var(--font-xs);
-  letter-spacing: 1.5px;
-  cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  .final-cta-buttons {
-    flex-direction: column;
-    align-items: center;
+  .health-check-box {
+    padding: var(--space-lg);
+  }
+  .health-check-title {
+    font-size: var(--font-lg);
   }
 }

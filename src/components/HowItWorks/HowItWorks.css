@@ -1,12 +1,10 @@
 .how-section {
   padding: var(--space-xxl) var(--container-padding);
   background: var(--color-bg-sage);
-  max-width: var(--container-max);
-  margin: 0 auto;
 }
 
 .how-header {
-  max-width: 720px;
+  max-width: 680px;
   margin-bottom: var(--space-xl);
 }
 
@@ -43,62 +41,99 @@
 .how-body {
   font-size: var(--font-base);
   line-height: 1.8;
-  color: var(--color-gray);
+  color: var(--color-navy);
 }
 
 .how-steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  border-top: 1px solid var(--color-border);
 }
 
 .step-card {
-  padding: var(--space-lg);
-  border-left: 1px solid var(--color-border);
+  padding: var(--space-xl) var(--space-lg) var(--space-xl) var(--space-lg);
+  border-right: 1px solid var(--color-border);
+  position: relative;
+}
+
+.step-card:first-child {
+  padding-left: var(--space-sm);
+}
+
+.step-card:last-child {
+  border-right: none;
+}
+
+.step-card::after {
+  content: '';
+  position: absolute;
+  bottom: var(--space-md);
+  left: var(--space-lg);
+  width: 60px;
+  height: 2px;
+  background: var(--color-navy);
+}
+
+.step-card:first-child::after {
+  left: var(--space-sm);
+}
+
+.step-card:not(:first-child)::after {
+  left: var(--space-lg);
 }
 
 .step-number {
-  font-size: var(--font-xs);
+  font-size: var(--font-sm);
   color: var(--color-primary);
   letter-spacing: 1px;
   margin-bottom: var(--space-sm);
+  font-weight: 400;
 }
 
 .step-title {
-  font-family: 'Libre Baskerville', serif;
-  font-size: var(--font-base);
-  font-weight: 400;
+  font-family: 'dm-sans';
+  font-size: var(--font-md);
+  font-weight: 500;
   color: var(--color-gold);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
   line-height: 1.4;
 }
 
 .step-desc {
-  font-size: var(--font-sm);
+  font-size: var(--font-base);
   line-height: 1.7;
   color: var(--color-gray);
 }
 
 .how-cta {
-  background: var(--color-navy);
+  background: var(--color-gold);
   color: #fff;
   border: none;
-  padding: var(--space-sm) var(--space-lg);
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
   font-size: var(--font-sm);
+  font-weight: 600;
   letter-spacing: 0.5px;
   cursor: pointer;
+  transition: background 0.2s;
 }
+
+.how-cta:hover {
+  background: #a87d3f;
+}
+
 
 @media (max-width: 992px) {
   .how-steps {
     grid-template-columns: 1fr;
+    border-top: none;
   }
   .step-card {
-    border-left: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-  }
-  .step-card:last-child {
-    border-bottom: none;
+    border-right: none;
+    border-top: 1px solid var(--color-border);
+    padding-left: 0;
   }
 }
