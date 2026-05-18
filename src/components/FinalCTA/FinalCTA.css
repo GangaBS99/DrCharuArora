@@ -134,4 +134,27 @@
   .health-check-title {
     font-size: var(--font-lg);
   }
+  .health-check-desc {
+    text-align: justify;
+  }
+  .stat-label {
+    font-size: var(--font-lg);
+  }
+  .final-cta-headline {
+    font-size: var(--font-lg);
+  }
+}
+
+@media (max-width: 576px) {
+  .health-check-title {
+    font-size: var(--font-md);
+  }
+  .stat-circle {
+    width: 44px;
+    height: 44px;
+    font-size: var(--font-sm);
+  }
+  .stat-label {
+    font-size: var(--font-md);
+  }
 }

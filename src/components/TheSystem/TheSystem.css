@@ -99,6 +99,33 @@
   .pillars-grid {
     grid-template-columns: 1fr;
   }
+  .pillar-name {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .system-title {
+    font-size: var(--font-xl);
+  }
+  .pillars-title {
+    font-size: var(--font-lg);
+  }
+  .pillar-title-box {
+    padding: var(--space-md);
+  }
+  .pillars-together-title {
+    font-size: var(--font-lg);
+  }
+}
+
+@media (max-width: 576px) {
+  .system-section {
+    padding: var(--space-xl) var(--container-padding);
+  }
+  .pillars-box {
+    padding: var(--space-md);
+  }
 }
 
 .pillars-together {

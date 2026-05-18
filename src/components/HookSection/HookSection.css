@@ -54,7 +54,7 @@
 
 .patient-voices {
   display: grid;
-  grid-template-columns: repeat(5, 250px);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-md);
   margin-top: var(--space-lg);
 }
@@ -90,6 +90,9 @@
   .patient-voices {
     grid-template-columns: repeat(2, 1fr);
   }
+  .voice-card {
+    aspect-ratio: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -97,10 +100,18 @@
     padding: var(--space-xl) var(--container-padding);
   }
   .hook-title {
-    
     font-size: var(--font-lg);
   }
   .patient-voices {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .patient-voices {
     grid-template-columns: 1fr;
+  }
+  .voice-card {
+    aspect-ratio: auto;
   }
 }
