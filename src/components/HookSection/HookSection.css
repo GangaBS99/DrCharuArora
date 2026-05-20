@@ -62,10 +62,9 @@
 .voice-card {
   background: #eef0f2;
   border-radius: 14px;
-  padding: 24px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  aspect-ratio: 1 / 1;
 }
 
 .voice-card .quote-mark {

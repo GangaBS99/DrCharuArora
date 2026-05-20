@@ -4,8 +4,9 @@ import HookSection from './components/HookSection/HookSection'
 import ConditionsGrid from './components/ConditionsGrid/ConditionsGrid'
 import HowItWorks from './components/HowItWorks/HowItWorks'
 import FinalCTA from './components/FinalCTA/FinalCTA'
+import ClinicalProcess from './components/ClinicalProcess/ClinicalProcess'
+import CorePrinciples from './components/CorePrinciples/CorePrinciples'
 import TheSystem from './components/TheSystem/TheSystem'
-import System from './pages/System/System'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <FinalCTA />
       </section>
       <TheSystem />
+      <ClinicalProcess />
+      <CorePrinciples />
     </>
   )
 }
