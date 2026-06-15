@@ -7,7 +7,7 @@ function About() {
       <div className="about-hero">
         <div className="about-hero-content">
           <div className="about-label">
-            <span className="about-label-line" aria-hidden="true" />
+       
             About
           </div>
           <h2 className="about-title">
