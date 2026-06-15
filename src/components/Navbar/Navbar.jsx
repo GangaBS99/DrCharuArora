@@ -18,9 +18,11 @@ function Navbar() {
         <ul className="nav-links">
           <li><a href="#system" onClick={() => setMenuOpen(false)}>The System</a></li>
           <li><a href="#who-its-for" onClick={() => setMenuOpen(false)}>Who it's for</a></li>
+          <li><a href="#programs" onClick={() => setMenuOpen(false)}>Programs</a></li>
           <li><a href="#health-check" onClick={() => setMenuOpen(false)}>Health Check</a></li>
           <li><a href="#evidence" onClick={() => setMenuOpen(false)}>Evidence</a></li>
           <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
+          <li><a href="#courses" onClick={() => setMenuOpen(false)}>Courses</a></li>
           <li><a href="#insights" onClick={() => setMenuOpen(false)}>Insights</a></li>
         </ul>
         <button className="nav-cta">Book an Appointment</button>

@@ -26,7 +26,7 @@ function FinalCTA() {
             <span className="stat-label">Minutes</span>
           </div>
         </div>
-        <button className="health-check-btn">TAKE THE FREE HEALTH &nbsp;→</button>
+        <button className="health-check-btn">TAKE THE FREE HEALTH CHECK-UP &nbsp;→</button>
       </div>
 
       <div className="final-closing">
@@ -35,7 +35,7 @@ function FinalCTA() {
         </h2>
         <p className="final-subtext">You need a new lens.</p>
         <p className="final-links">
-          Begin with Bio-Integrative Health Systems · Understand the system first
+          Begin with Bio-Integrative Health Systems 
         </p>
       </div>
     </section>

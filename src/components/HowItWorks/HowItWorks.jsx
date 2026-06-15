@@ -4,7 +4,7 @@ function HowItWorks() {
   return (
     <section className="how-section">
       <div className="how-header">
-        <div className="how-label"><span className="label-line"></span> HOW IT WORKS</div>
+        <div className="how-label">HOW IT WORKS</div>
         <h2 className="how-headline">Uncover. Correct. <em>Restore.</em></h2>
         <p className="how-body">
           When you come to a doctor with hypertension, most give you a tablet. When you come with thyroid issues, you get thyroxine. The prescription is right. But you're still not well. That's because the tablet treats the condition, not the reason you got it in the first place. Bio-Integrative Health Systems looks for what's driving it and addresses that instead.
@@ -37,7 +37,6 @@ function HowItWorks() {
         </div>
       </div>
 
-      <button className="how-cta">Take the free health check</button>
     </section>
   )
 }

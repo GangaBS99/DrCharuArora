@@ -19,13 +19,6 @@
   text-transform: uppercase;
 }
 
-.label-line {
-  display: inline-block;
-  width: 28px;
-  height: 2px;
-  background: var(--color-primary);
-}
-
 .how-headline {
   font-size: var(--font-xl);
   color: var(--color-primary);

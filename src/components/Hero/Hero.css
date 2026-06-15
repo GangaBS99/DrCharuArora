@@ -10,7 +10,9 @@
 
 .hero-content {
   padding-bottom: var(--space-xl);
+  padding-top: var(--space-lg);
   max-width: 540px;
+  align-self: center;
 }
 
 .hero-subtitle {
@@ -18,15 +20,6 @@
   align-items: flex-start;
   gap: var(--space-sm);
   margin-bottom: var(--space-md);
-}
-
-.subtitle-line {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background: var(--color-primary);
-  margin-top: 8px;
-  flex-shrink: 0;
 }
 
 .hero-subtitle p {

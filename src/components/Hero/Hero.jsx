@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <div className="hero-subtitle">
-          <span className="subtitle-line"></span>
+         
           <div>
             <p>INTEGRATIVE MEDICINE PHYSICIAN</p>
             <p>BREATHWORK &nbsp;• &nbsp;CIRCADIAN HEALTH</p>
@@ -45,7 +45,7 @@ function Hero() {
               <span>START<br />YOUR<br />JOURNEY</span>
               <span className="arrow">→</span>
             </button>
-            <button className="btn-secondary">
+            <button className="btn-secondary" onClick={() => document.getElementById('system').scrollIntoView({ behavior: 'smooth' })}>
               <span>EXPLORE<br />THE<br />SYSTEM</span>
               <span className="arrow">→</span>
             </button>

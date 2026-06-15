@@ -25,7 +25,7 @@ function TheSystem() {
             </p>
           </div>
           <div className="pillar-card">
-            <h4 className="pillar-name">Sleep</h4>
+            <h4 className="pillar-name">Sleep Regulation</h4>
             <p className="pillar-body">
               Sleep is when your body repairs tissue, regulates hormones and clears metabolic waste from the brain. When sleep architecture is disrupted, even if hours are adequate, none of this happens fully. Most chronic conditions are made worse by poor sleep. Many are partially caused by it. We assess sleep deeply, find what is disrupting it and rebuild it as a clinical priority.
             </p>
