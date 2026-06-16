@@ -22,7 +22,6 @@ function Navbar() {
           <li><a href="#health-check" onClick={() => setMenuOpen(false)}>Health Check</a></li>
           <li><a href="#evidence" onClick={() => setMenuOpen(false)}>Evidence</a></li>
           <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-          <li><a href="#courses" onClick={() => setMenuOpen(false)}>Courses</a></li>
           <li><a href="#insights" onClick={() => setMenuOpen(false)}>Insights</a></li>
         </ul>
         <button className="nav-cta">Book an Appointment</button>

@@ -373,7 +373,9 @@ function HealthCheck() {
         <div className="health-badge">Health Check</div>
 
         <div className="health-header">
-          <div className="health-label">Free Health Check</div>
+          <div className="health-label">
+            <span>Free Health Check</span>
+          </div>
           <p className="health-intro">
             Answer 12 simple questions about how you feel day to day. At the end you will get a snapshot of which areas may need attention across energy, sleep and daily rhythms.
           </p>

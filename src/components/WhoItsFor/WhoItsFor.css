@@ -52,6 +52,7 @@
   margin-bottom: 0;
 }
 
+
 .who-columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

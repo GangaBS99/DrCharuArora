@@ -32,10 +32,13 @@ function Hero() {
           <div className="credential-row">
             <span><span className="dot"></span> Certified Clinical Yoga Therapist</span>
           </div>
-          <div className="credential-fellowship">
-            Clinical Fellowship in Research & Statistics<br />
-            American Association of Yoga & Medicine (AAYM)
+          <div className="credential-row">
+            <span><span className="dot"></span>  Clinical Fellowship in Research & Statistics</span>
           </div>
+          <div className="credential-row">
+            <span><span className="dot"></span>  American Association of Yoga & Medicine (AAYM)</span>
+          </div>
+        
         </div>
 
         <div className="intro-section">

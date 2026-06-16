@@ -111,12 +111,13 @@
 /* From the Desk */
 .courses-desk {
   background: #eff3ee;
+
   padding: var(--space-xxl) var(--container-padding);
 }
 
 .courses-desk-sequence {
   font-family: 'Cormorant Garamond', serif;
-  font-size: var(--font-sm);
+  font-size: var(--font-lg);
   font-style: italic;
   font-weight: 400;
   color: var(--color-navy);

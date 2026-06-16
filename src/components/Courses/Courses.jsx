@@ -42,30 +42,7 @@ const deskArticles = [
 function Courses() {
   return (
     <section className="courses-section" id="courses">
-      <div className="courses-main">
-        <div className="courses-header">
-          <div className="courses-label">
-            <span className="courses-label-line" aria-hidden="true" />
-            Courses
-          </div>
-        <h2 className="courses-title">
-          Learn the <em>system</em> behind <em>your</em> body
-        </h2>
-      </div>
-
-      <div className="courses-grid">
-        {courses.map((course) => (
-          <article className="course-card" key={course.title}>
-            <p className="course-level">{course.level}</p>
-            <h3 className="course-title">{course.title}</h3>
-            <p className="course-desc">{course.description}</p>
-            <a className="course-link" href="#courses">
-              Learn more <span aria-hidden="true">→</span>
-            </a>
-          </article>
-        ))}
-      </div>
-      </div>
+     
 
       <div className="courses-desk">
         <p className="courses-desk-sequence">

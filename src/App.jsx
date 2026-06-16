@@ -22,7 +22,7 @@ function App() {
         <Hero />
         <HookSection />
         <ConditionsGrid />
-        <HowItWorks />
+      
         <FinalCTA />
       </section>
       <TheSystem />

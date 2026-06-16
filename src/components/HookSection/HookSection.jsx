@@ -19,7 +19,7 @@ function HookSection() {
           Still not satisfied with the treatment.
         </h2>
         <p className="hook-body">
-          standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
+          Standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
         </p>
         <button className="hook-cta">Take the free health check-up</button>
       </div>

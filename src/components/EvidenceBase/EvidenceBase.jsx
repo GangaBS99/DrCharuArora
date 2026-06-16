@@ -81,7 +81,7 @@ function EvidenceBase() {
     <section className="evidence-section" id="evidence">
       <div className="evidence-header">
         <div className="evidence-label">
-          <span className="evidence-label-line" aria-hidden="true" />
+      
           The Evidence Base
         </div>
         <h2 className="evidence-title">

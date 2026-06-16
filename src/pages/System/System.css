@@ -16,7 +16,7 @@
 }
 
 .system-headline {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-xl);
   font-weight: 400;
   color: var(--color-primary);
@@ -54,7 +54,7 @@
 }
 
 .pillar-card h3 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-lg);
   font-weight: 400;
   color: var(--color-primary);
@@ -105,7 +105,7 @@
 }
 
 .process-title {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-lg);
   font-weight: 400;
   color: var(--color-primary);
@@ -145,7 +145,7 @@
 }
 
 .process-card h3 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-base);
   font-weight: 400;
   color: var(--color-gold);
@@ -181,7 +181,7 @@
 }
 
 .principles-title {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: var(--font-lg);
   font-weight: 400;
   color: var(--color-primary);
