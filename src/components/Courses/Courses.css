@@ -133,7 +133,7 @@
 
 .courses-desk-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: var(--font-sm);
+  font-size: var(--font-md);
   font-weight: 700;
   color: var(--color-gold);
   margin-bottom: var(--space-sm);

@@ -33,11 +33,9 @@ function Hero() {
             <span><span className="dot"></span> Certified Clinical Yoga Therapist</span>
           </div>
           <div className="credential-row">
-            <span><span className="dot"></span>  Clinical Fellowship in Research & Statistics</span>
+            <span><span className="dot"></span>  Clinical Fellowship in Research & Statistics - American Association of Yoga & Medicine (AAYM)</span>
           </div>
-          <div className="credential-row">
-            <span><span className="dot"></span>  American Association of Yoga & Medicine (AAYM)</span>
-          </div>
+        
         
         </div>
 

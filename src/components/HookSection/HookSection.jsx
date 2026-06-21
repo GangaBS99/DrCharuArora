@@ -11,17 +11,28 @@ const voices = [
 function HookSection() {
   return (
     <section className="hook-section">
-      <div className="hook-content">
-        <p className="hook-label">NON-TREATABLE DISEASES CAN BE TREATED</p>
-        <h2 className="hook-title">
-          You've seen the specialists.<br />
-          Done the tests.<br />
-          Still not satisfied with the treatment.
-        </h2>
-        <p className="hook-body">
-          Standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
-        </p>
-        <button className="hook-cta">Take the free health check-up</button>
+      <div className="hook-intro">
+        <div className="hook-content">
+          <p className="hook-label">NON-TREATABLE DISEASES CAN BE TREATED</p>
+          <h2 className="hook-title">
+            You've seen the specialists.<br />
+            Done the tests.<br />
+            Still not satisfied with the treatment.
+          </h2>
+          <p className="hook-body">
+            Standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
+          </p>
+          <button className="hook-cta">Take the free health check-up</button>
+        </div>
+
+        <div className="hook-video" aria-label="Bio-Integrative Health Systems video">
+          <iframe
+            src="https://www.youtube.com/embed/Bn2BranXqEs"
+            title="Bio-Integrative Health Systems video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <div className="patient-voices">
