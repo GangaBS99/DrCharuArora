@@ -202,6 +202,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  text-decoration: none;
 }
 
 .courses-article-category {

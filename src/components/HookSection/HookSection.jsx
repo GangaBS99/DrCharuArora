@@ -22,7 +22,7 @@ function HookSection() {
           <p className="hook-body">
             Standard tests miss more than they catch. Bio-Integrative Health Systems looks deeper and finds the real reason you're not well.
           </p>
-          <button className="hook-cta">Take the free health check-up</button>
+          <a className="hook-cta" href="#health-check">Take the free health check-up</a>
         </div>
 
         <div className="hook-video" aria-label="Bio-Integrative Health Systems video">

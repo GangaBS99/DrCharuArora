@@ -26,7 +26,7 @@ function FinalCTA() {
             <span className="stat-label">Minutes</span>
           </div>
         </div>
-        <button className="health-check-btn">TAKE THE FREE HEALTH CHECK-UP &nbsp;→</button>
+        <a className="health-check-btn" href="#health-check">TAKE THE FREE HEALTH CHECK-UP &nbsp;→</a>
       </div>
 
       <div className="final-closing">

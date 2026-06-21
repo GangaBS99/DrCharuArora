@@ -79,6 +79,7 @@
 
 /* Button */
 .health-check-btn {
+  display: inline-block;
   background: var(--color-navy);
   color: #fff;
   border: none;
@@ -88,6 +89,7 @@
   font-weight: 600;
   letter-spacing: 1.5px;
   cursor: pointer;
+  text-decoration: none;
   transition: background 0.2s;
 }
 
